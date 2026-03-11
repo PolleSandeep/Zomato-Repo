@@ -1,0 +1,8 @@
+---
+services:
+  instamart:
+    image: sandeep181/myapp-1:v1
+    ports:
+      - "3000"
+    deploy:
+      replicas: 3
